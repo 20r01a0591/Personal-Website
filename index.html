@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Portfolio</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <i><h1>Hi, I am <span>Snihitha</span><br>Student at CMRIT Hyderabad</h1></i>
+                <div class="btnfordownload">
+                    <a href="https://drive.google.com/file/d/1o6N39Q5YYPmM_GcOhkqoWc9ehjAxAs--/view?usp=sharing" 
+                    download class="btn btn2">Download Resume</a>
+                    </div></div>
+        </div>
+
+        <!------------------about-------------------->
+        <div id="about">
+            <div class="containerforabout">
+                <div class="row">
+                     <div class="about-col-1">
+                       <img src="photo2.jpg">
+                     </div>
+                     <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="aboutclass" style="padding-top:20px">I'm Snihitha currently pursuing Bachelor's degree in Computer Science at CMRIT Hyderabad.</p>
+                        <p class="aboutclass">An enthusiastic learner with a strong passion for enhancing my technical skills. I'm a quick learner and interested in solving problems.</p>
+                        <p class="aboutclass">I have gained proficiency in several technologies, including Java,C,SQL,HTML,CSS,Javascript.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div> 
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>Java</li>
+                                <li>C</li>
+                                <li>SQL</li>
+                                <li>Full Stack Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2024 (BTech)</span><br>CMR Institute of Technology, Hyderabad (CSE)</li>
+                                <li><span>2018-2020 (Intermediate)</span><br>SR Junior College for Girls, Karminagar (MPC)</li>
+                                <li><span>2017-2018 (SSC)</span><br>Jayabharathi E/M High School, Jammikunta</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+<!-----------------------Services--------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="services-list">
+            <div>
+               <!-- <i class="fas fa-code"></i>-->
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>SQL</li>
+                    <li>Html, CSS, Javascript</li>
+                </ul>
+                <a href="https://drive.google.com/file/d/1Po7pw2TSSr66Wjq28tUE2nnHgeB-36Vf/view?usp=share_link"> Learn More</a>
+            </div>
+            <div>
+               <!-- <i class="fas fa-crop-alt"></i>-->
+                <h2>Certifications</h2>
+                <ul>
+                    <li><a href="https://drive.google.com/file/d/1lm0q05rCO4IO941IkwKU742DbdqxE90k/view?usp=share_link">Database Management System</a></li>
+                    <li><a href="https://drive.google.com/file/d/1Po7pw2TSSr66Wjq28tUE2nnHgeB-36Vf/view?usp=share_link">Java programming</a></li>
+                    <li><a href="https://drive.google.com/file/d/1ljFblU09y6vw4rQRg46vXuxR3KUUk0xx/view?usp=sharing">Participation Certificate from Flipkart</a></li>                    
+                </ul><br>
+                <p><b>Note: </b>Click the above statements you may find related Certifications</p>
+                <a href="https://drive.google.com/file/d/1lyHENl2IHRSS6uUphG-1QVB76LIuZSWe/view?usp=share_link"> Learn More</a>
+            </div>
+            <div>
+               <!-- <i class="fab fa-app-store"></i>-->
+                <h2>Achievements</h2>
+                <ul>
+                <li>Selected for Amazon ML Summer School 2022</li></ul>
+                <a href="https://drive.google.com/file/d/1zdy95MFb0_GVowmG8Kns_3Gt-IA1Zvws/view?usp=share_link"> Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------Projects-------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="filter.png" align="center">
+                <div class="layer">
+                    <h3>AR SPARK EFFECT</h3>
+                    <p>It is an AR effect which will enable us to take  pictures with the particular filter </p>
+                 <a href="https://www.instagram.com/ar/1535553856929864/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+       <!--- <a href="#"></a>-->
+    </div>
+</div>
+
+
+<!-------------------contact---------------->
+<div id="contact">
+ <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>snihithareddy@gmail.com</p>
+            <p><i class="fa fa-phone-square"></i>7093270811</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/snihithareddy"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/snihithareddy"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/snihitha-mothe-692389237"><i class="fab fa-linkedin"></i></a>
+                <!--<a href=""><i class="fab fa-facebook"></i></a>-->
+            </div>
+            <a href="https://drive.google.com/file/d/1o6N39Q5YYPmM_GcOhkqoWc9ehjAxAs--/view?usp=sharing" download class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea naem="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+ </div>
+ <div class="copyright">
+ <footer>
+	<p>Copyright © created by Snihitha Mothe</p>
+</footer>
+</div>
+</div>
+
+ <script>
+       var tablinks=document.getElementsByClassName("tab-links");
+       var tabcontents=document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontents of tabcontents){
+            tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+</script>   
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>    
+</body>
+</html>
